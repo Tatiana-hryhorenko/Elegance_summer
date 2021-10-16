@@ -1,0 +1,27 @@
+/* Section button*/
+
+.section__wrapper-button {
+    text-align: center;
+}
+
+.button__outline {
+    display: inline-block;
+    padding: 9px 39px 12px 39px;
+    border: 1px solid #F72464;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777777;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.button__outline:hover {
+    background-color: #F72464;
+    color: #FFFFFF;
+}

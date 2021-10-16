@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}

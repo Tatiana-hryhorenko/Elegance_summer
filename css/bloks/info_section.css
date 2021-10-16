@@ -1,0 +1,34 @@
+.info__section {
+    padding: 68px 0;
+    position: relative;
+    background: url('/img/info__bloks/bg_1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.info__section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.info__section-row {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__section-title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 1;
+    color: #FFFFFF;
+}
