@@ -14,3 +14,12 @@ body {
     width: 1170px;
     margin: 0 auto;
 }
+
+.nav {
+    padding: 39px 0;
+}
+
+.section__blog {
+    padding-top: 90px;
+    padding-bottom: 45px;
+}

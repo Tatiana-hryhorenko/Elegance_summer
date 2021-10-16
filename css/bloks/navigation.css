@@ -1,9 +1,5 @@
         /* Navigation */
         
-        .nav {
-            padding: 39px 0;
-        }
-        
         .nav__row {
             display: flex;
             justify-content: flex-start;
