@@ -6,7 +6,4 @@
 @import "./bloks/products.css";
 @import "./bloks/button.css";
 @import "./bloks/info_section.css";
-
-/*font-family: 'Noto Sans', sans-serif;
-font-family: 'Playfair Display',
-serif;*/
+@import "./bloks/post.css";
