@@ -1,0 +1,11 @@
+.subscribe__form {}
+
+.subscribe__form-input {
+    width: 229px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #F72464;
+    border-radius: 5px;
+}
+
+.subscribe__form-submit {}
