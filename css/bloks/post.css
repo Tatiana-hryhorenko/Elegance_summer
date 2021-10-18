@@ -1,6 +1,5 @@
-.posts {}
-
 .posts__wrapper {
+    margin-bottom: 75px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,9 +10,8 @@
     max-width: 570px;
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
 }
-
-.post__img {}
 
 .post__content {
     max-width: 370px;
