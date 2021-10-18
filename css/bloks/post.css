@@ -1,6 +1,6 @@
 .posts {}
 
-.post__wrapper {
+.posts__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
