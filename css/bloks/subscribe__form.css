@@ -6,6 +6,15 @@
     background: #FFFFFF;
     border: 1px solid #F72464;
     border-radius: 5px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.subscribe__form-input::placeholder {
+    color: #999999;
 }
 
 .subscribe__form-submit {}
