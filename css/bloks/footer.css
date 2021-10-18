@@ -1,0 +1,20 @@
+.footer {
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+.footer__nav {
+    margin: 0 auto;
+}
+
+.footer__socials {
+    margin: 0 auto;
+}
+
+.footer__socials-link {}
+
+.footer__socials-icon {}
+
+.footer__copiright {
+    margin: 0 auto;
+}
