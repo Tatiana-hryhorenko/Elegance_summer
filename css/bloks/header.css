@@ -52,29 +52,6 @@
         }
     }
     
-    .button {
-        display: inline-block;
-        padding: 5px 33px 11px 33px;
-        height: 51px;
-        background-color: #F72464;
-        box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
-        border-radius: 4px;
-        font-family: 'Playfair Display', serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 26px;
-        line-height: 35px;
-        text-decoration: none;
-        text-align: center;
-        color: #FFFFFF;
-        transition: box-shadow 0.2s ease-in background-color 0.2s ease-in;
-    }
-    
-    .button:hover {
-        box-shadow: 0px 5px 35px rgba(168, 37, 76, 0.35);
-        background-color: #f83570;
-    }
-    
     .header__photo {
         display: none;
     }
