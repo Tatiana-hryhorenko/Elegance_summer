@@ -4,18 +4,21 @@
                 text-align: center;
             }
             
+            .header__button {
+                margin-bottom: 20px;
+            }
+            
             .button {
                 display: inline-block;
-                padding: 0.19230em 1.26923em 0.42307em 3em;
-                /*height: 51px;*/
+                padding: 0.42307em 1.26923em 0.53846em;
                 background-color: #F72464;
                 box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
                 border-radius: 4px;
                 font-family: 'Playfair Display', serif;
                 font-style: normal;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 35px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 1;
                 text-decoration: none;
                 text-align: center;
                 color: #FFFFFF;
@@ -24,7 +27,7 @@
             
             @media (min-width: 992px) {
                 .button {
-                    font-size: 20px;
+                    font-size: 26px;
                 }
             }
             
