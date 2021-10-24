@@ -41,23 +41,13 @@
     
     .nav__list-holder {
         display: none;
+        opacity: 0;
+        transition: opacity 0.2s ease-in;
     }
     
     .nav__list-holder--visible {
         display: block;
-    }
-    
-    .nav__list {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 300px;
-        background-color: #000000;
-        margin: 0;
-        padding: 0;
-        z-index: 9;
-        color: #fff;
+        opacity: 1;
     }
     
     .nav__list-holder {
@@ -68,6 +58,23 @@
         height: 100%;
         background-color: hsla(342, 93%, 55%, 0.959);
         z-index: 9;
+    }
+    
+    .nav__list-holder .nav__list {
+        transform: translateX(-100%);
+    }
+    
+    .nav__list-holder .nav__list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+        z-index: 9;
+        color: #fff;
     }
     /*.nav__list {
             display: flex;
