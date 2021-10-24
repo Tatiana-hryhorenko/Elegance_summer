@@ -6,8 +6,9 @@
             align-items: center;
         }
         
-        .nav__logo {
+        a.nav__logo {
             margin-right: 83px;
+            text-decoration: none;
             font-family: Noto Sans;
             font-style: normal;
             font-weight: 400;
@@ -15,10 +16,9 @@
             line-height: 38px;
             color: #000000;
         }
-        
-        a.nav__logo {
+        /*a.nav__logo {
             text-decoration: none;
-        }
+        }*/
         
         a.nav__logo:hover {
             text-decoration: underline;
