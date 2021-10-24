@@ -39,8 +39,12 @@
         color: #F72464;
     }
     
-    .nav__list {
+    .nav__list-holder {
         display: none;
+    }
+    
+    .nav__list-holder--visible {
+        display: block;
     }
     
     .nav__list {
