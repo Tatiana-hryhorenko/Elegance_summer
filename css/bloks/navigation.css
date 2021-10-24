@@ -40,7 +40,7 @@
     }
     
     .nav__list-holder {
-        opacity: 0;
+        display: none;
         transition: opacity 0.2s ease-in;
         position: absolute;
         top: 0;
