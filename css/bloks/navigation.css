@@ -52,7 +52,7 @@
     }
     
     .nav__list-holder--visible {
-        opacity: 1;
+        display: block;
     }
     
     @media (min-width: 992px) {
