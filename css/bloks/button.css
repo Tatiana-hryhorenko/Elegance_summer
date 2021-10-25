@@ -38,7 +38,7 @@
             
             .button__outline {
                 display: inline-block;
-                padding: 0.34615em 1.5em 46153em 1.5rem;
+                padding: 0.46153em 0.03846em 0.46153em 0.03846em;
                 border: 1px solid #F72464;
                 box-sizing: border-box;
                 border-radius: 4px;
