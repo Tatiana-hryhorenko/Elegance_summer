@@ -38,19 +38,25 @@
             
             .button__outline {
                 display: inline-block;
-                padding: 0.46153em 0.03846em 0.46153em 0.03846em;
+                padding: 0.5em 1.66666em;
                 border: 1px solid #F72464;
                 box-sizing: border-box;
                 border-radius: 4px;
                 font-family: 'Playfair Display', serif;
                 font-style: normal;
                 font-weight: 400;
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 21px;
                 text-transform: uppercase;
                 text-decoration: none;
                 color: #777777;
                 transition: background-color 0.2s ease-in, color 0.2s ease-in;
+            }
+            
+            @media (min-width: 992px) {
+                .button__outline {
+                    font-size: 20px;
+                }
             }
             
             .button__outline:hover {
