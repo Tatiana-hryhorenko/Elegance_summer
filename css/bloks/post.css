@@ -1,9 +1,16 @@
 .posts__wrapper {
-    margin-bottom: 75px;
+    margin-bottom: 35px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     row-gap: 40px;
+    column-gap: 30px;
+}
+
+@media (min-width: 992px) {
+    .posts__wrapper {
+        margin-bottom: 35px;
+    }
 }
 
 .post {
@@ -11,6 +18,24 @@
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    align-items: flex-start;
+    column-gap: 15px;
+}
+
+@media (min-width: 400px) {
+    .posts {
+        column-gap: 30px;
+    }
+}
+
+.post__img {
+    max-width: 100px;
+}
+
+@media (min-width: 400px) {
+    .posts__img {
+        max-width: 170px;
+    }
 }
 
 .post__content {

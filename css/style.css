@@ -14,10 +14,10 @@ nav,
 header,
 .section__new,
 .section__featured,
+.info__section,
 
-/*.info__section,*/
+/*.section__blog,*/
 
-.section__blog,
 .section__subscribe,
 footer {
     display: none;
