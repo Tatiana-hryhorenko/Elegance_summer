@@ -1,61 +1,70 @@
-/* Products */
-
-.product__link {
-    display: inline-block;
-    text-decoration: none;
-    transition: opacity 0.2s ease-in;
-}
-
-.product__link:hover {
-    opacity: 0.9;
-}
-
-.product {
-    max-width: 270px;
-    text-align: center;
-}
-
-.products__wrapper {
-    margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 40px;
-    column-gap: 30px;
-}
-
-.product__img {
-    display: block;
-    margin-bottom: 12px;
-}
-
-.product__title {
-    margin: 0;
-    margin-bottom: 12px;
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    text-align: center;
-    color: #000000;
-}
-
-.product__price {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 19px;
-    text-transform: uppercase;
-}
-
-.product__price-old {
-    margin-right: 10px;
-    font-weight: 400;
-    color: #999999;
-    text-decoration-line: unset;
-}
-
-.product__price-new {
-    font-weight: 700;
-    color: #F72464;
-}
+    /* Products */
+    
+    .product__link {
+        display: inline-block;
+        text-decoration: none;
+        transition: opacity 0.2s ease-in;
+    }
+    
+    .product__link:hover {
+        opacity: 0.9;
+    }
+    
+    .product {
+        max-width: 270px;
+        text-align: center;
+    }
+    
+    .products__wrapper {
+        margin-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 40px;
+        column-gap: 30px;
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    @media(min-width: 1200px) {
+        .products__wrapper {
+            max-width: 100%;
+        }
+    }
+    
+    .product__img {
+        display: block;
+        margin-bottom: 12px;
+    }
+    
+    .product__title {
+        margin: 0;
+        margin-bottom: 12px;
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .product__price {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+    
+    .product__price-old {
+        margin-right: 10px;
+        font-weight: 400;
+        color: #999999;
+        text-decoration-line: unset;
+    }
+    
+    .product__price-new {
+        font-weight: 700;
+        color: #F72464;
+    }

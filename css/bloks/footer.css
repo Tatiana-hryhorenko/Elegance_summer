@@ -44,7 +44,14 @@
 }
 
 .footer__nav>a+a {
-    margin-left: 30px;
+    margin-top: 20px;
+}
+
+@media(min-width: 992px) {
+    .footer__nav>a+a {
+        margin: 0;
+        margin-left: 30px;
+    }
 }
 
 .footer__socials {
