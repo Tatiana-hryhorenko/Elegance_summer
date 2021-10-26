@@ -10,14 +10,13 @@
 @import "./bloks/post.css";
 @import "./bloks/subscribe__form.css";
 @import "./bloks/footer.css";
+nav,
+header,
+.section__new,
+.section__featured,
 
-/*nav,
-header,*/
+/*.info__section,*/
 
-
-/*.section__featured,*/
-
-.info__section,
 .section__blog,
 .section__subscribe,
 footer {
