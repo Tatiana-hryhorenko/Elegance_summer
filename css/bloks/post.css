@@ -23,18 +23,24 @@
 }
 
 @media (min-width: 400px) {
-    .posts {
+    .post {
         column-gap: 30px;
     }
 }
 
+@media (min-width: 992px) {
+    .post {
+        column-gap: 20px;
+    }
+}
+
 .post__img {
-    max-width: 100px;
+    max-width: 170px;
 }
 
 @media (min-width: 400px) {
     .posts__img {
-        max-width: 170px;
+        max-width: 100px;
     }
 }
 
