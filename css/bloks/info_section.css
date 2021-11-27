@@ -1,7 +1,7 @@
 .info__section {
     padding: 68px 0;
     position: relative;
-    background: url('/img/info__bloks/bg_1.jpg');
+    background-image: url('/img/info__bloks/bg_1.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
